@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.TextFlow?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <HBox prefHeight="290.0" prefWidth="687.0">
+         <children>
+            <VBox prefHeight="290.0" prefWidth="323.0" />
+            <VBox prefHeight="290.0" prefWidth="405.0">
+               <children>
+                  <TextFlow prefHeight="55.0" prefWidth="396.0" />
+               </children></VBox>
+         </children>
+      </HBox>
+   </children>
+</GridPane>
